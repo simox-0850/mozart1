@@ -11533,10 +11533,13 @@ blockquote span::before {
 .product-details .product-option .product-row {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+padding: 10px;
 }
 
 .product-details .product-option .product-row .thm-btn {
-  margin-left: 20px;
+  margin-left: 0;
 }
 
 .shop-single-section
@@ -11544,22 +11547,24 @@ blockquote span::before {
   .product-option
   .product-row
   > div:first-child {
-  width: 100px;
+  width: 247px;
   height: 48px;
+  margin-bottom: 1rem;
 }
 
 .shop-single-section .product-details .color-size {
-  margin-bottom: 30px;
+  margin-bottom: 1rem;
 }
 
 .shop-single-section .product-details .product-option .bootstrap-touchspin {
-  width: 100px;
+  width: 200px;
   border: 1px solid var(--color-border);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  margin-left: 1.5rem;
 }
 
 .shop-single-section
@@ -13261,6 +13266,7 @@ abbr[title] {
   -o-border-radius: 5px;
   font-size: 14px;
   height: 48px;
+  width: 200px;
 }
 .add-to-cart-btn .thm-btn span {
   color: var(--color-black);
